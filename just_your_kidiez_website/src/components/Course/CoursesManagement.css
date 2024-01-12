@@ -1,0 +1,70 @@
+.mob-table-courses-management {
+  max-width: 800px;
+  padding: 20px 25px;
+  background-color: #D8932B;
+  margin: 30px 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 0.05);
+}
+
+th {
+  text-align: center;
+  color: #A55914;
+}
+
+.btn {
+  padding: 3px 20px;
+  min-width: 90px;
+}
+
+.btn-primary-edit {
+  text-align: center;
+  color: white;
+  background-color: #A55914;
+}
+
+.btn-danger-delete {
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.course_management {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.course_management .openModalBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #A55914;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 1310px;
+}
+
+.openModalCreateBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #A55914;
+  color: white;
+  cursor: pointer;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.pp {
+  text-align: center;
+  color: red;
+  font-family: 'PT Sans', sans-serif;
+}
